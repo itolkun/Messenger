@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		83106A0B298A61FD001D4920 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83106A0A298A61FD001D4920 /* DatabaseManager.swift */; };
 		834F6CEC29893F4100221C8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 834F6CEB29893F4100221C8D /* GoogleService-Info.plist */; };
+		835FC31A2994F7FC005C76FF /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 835FC3192994F7FC005C76FF /* credentials.plist */; };
 		838077742985715A009CC999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838077732985715A009CC999 /* AppDelegate.swift */; };
 		838077762985715A009CC999 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838077752985715A009CC999 /* SceneDelegate.swift */; };
 		838077782985715A009CC999 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 838077772985715A009CC999 /* ConversationsViewController.swift */; };
@@ -31,6 +32,7 @@
 		765923FDF099E50735C68D56 /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
 		83106A0A298A61FD001D4920 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		834F6CEB29893F4100221C8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		835FC3192994F7FC005C76FF /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 		838077702985715A009CC999 /* Messenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		838077732985715A009CC999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		838077752985715A009CC999 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				8380778B29857B8D009CC999 /* Views */,
 				8380778A29857B70009CC999 /* Controllers */,
 				838077812985715B009CC999 /* Info.plist */,
+				835FC3192994F7FC005C76FF /* credentials.plist */,
 			);
 			path = Messenger;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			files = (
 				838077802985715B009CC999 /* LaunchScreen.storyboard in Resources */,
 				834F6CEC29893F4100221C8D /* GoogleService-Info.plist in Resources */,
+				835FC31A2994F7FC005C76FF /* credentials.plist in Resources */,
 				8380777D2985715B009CC999 /* Assets.xcassets in Resources */,
 				8380777B2985715A009CC999 /* Main.storyboard in Resources */,
 			);
@@ -453,6 +457,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Messenger/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -484,6 +490,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Messenger/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile ";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
